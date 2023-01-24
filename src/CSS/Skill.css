@@ -1,0 +1,39 @@
+.outer-skill{
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(#fff,rgb(30,24,66));
+}
+.skill-text{
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgb(30,24,66);
+    font-weight: bold;
+}
+.skill{
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(6,120px);
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+   color: snow;
+   font-size: 16px;
+}
+.skillitem{
+    width: 120px;
+    height: 130px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid snow;
+    padding: 10px;
+    border-radius: 5px;
+}
+.skillitem>img{
+    width: 85px;
+    height: 85px;
+    margin: auto;
+}
+.skillitem>div{
+    width: 100%;
+    text-align: center;
+}

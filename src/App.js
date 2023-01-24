@@ -1,16 +1,21 @@
 import './App.css';
-import { AllRoutes } from './AllRoutes/AllRoutes';
-import { Navbar } from './AllRoutes/Navbar';
-
+import { Aboutme } from './Pages/Aboutme';
+import { Contact } from './Pages/Contact';
+import { GitStats } from './Pages/GitStats';
+import { Home } from './Pages/Home';
+import { Navbar } from './Pages/Navbar';
+import { Project } from './Pages/Project';
+import { Skill } from './Pages/Skill';
 function App() {
   return (
     <div className="App">
-     <div>
-      <Navbar/>
-     </div>
-     <div>
-      <AllRoutes/>
-     </div>
+     <Navbar/>
+     {/* <Home/>
+     <Aboutme/>
+     <Project/>
+     <Skill/>
+     <GitStats/>
+     <Contact/> */}
     </div>
   );
 }
