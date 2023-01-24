@@ -40,7 +40,9 @@ export const Navbar = () => {
                 <li><a href="#contact" onClick={()=>{
                   setActive(false)
                 }}>Contact</a></li>
-                <li><a download href="/Project/Ajaya-Behera-Resume">Resume</a></li>
+                <li><a href="/Project/Ajaya-Kumar-Behera-Resume.pdf" download onClick={()=>{
+              window.open("https://drive.google.com/file/d/1zTgZBMP6AiSJeX31mpRlHNI_RgJSNO3o/view?usp=sharing",'_blank')
+            }}>Resume</a></li>
             </ul>
            
         </div>

@@ -6,7 +6,7 @@ export const Aboutme = () => {
        <h1 className='aboutmediv'>About Me!</h1>
       <div className='aboutme-div2'>
           <div className='aboutme-div21'>
-            <img src="/Images/Profile.png" alt="" />
+            <img src="https://avatars.githubusercontent.com/u/106064518?v=4" alt="" />
             <span></span>
           </div>
           <div className='aboutme-div22'>

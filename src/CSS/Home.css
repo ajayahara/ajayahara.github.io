@@ -87,7 +87,7 @@
     .home-div1 {
         width: 60%;
     }
-    
+
     .home-div2 {
         width: 38%;
     }
@@ -98,13 +98,16 @@
         width: 100%;
         z-index: 2;
     }
-.home-container {
-    padding: 10px;
-    width: 100%;
-}
-.home {
-    padding: 5px;
-}
+
+    .home-container {
+        padding: 60px 10px 10px 10px;
+        width: 100%;
+    }
+
+    .home {
+        padding: 5px;
+    }
+
     .home-div2 {
         width: 100%;
         position: absolute;

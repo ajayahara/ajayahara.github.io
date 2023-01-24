@@ -24,7 +24,15 @@ export const Contact = () => {
                 </div>
                 <div>
                   <img src="/Images/github.png" alt="" />
+                  <a href="https://github.com/ajayahara" target='_blank' rel="noreferrer">
                   <span>ajayahara</span>
+                  </a>
+                </div>
+                <div>
+                  <img src="/Images/linkedin.png" alt="" />
+                  <a href="https://linkedin.com/in/https://www.linkedin.com/in/ajaya-kumar-behera-a56549237/" target='_blank' rel="noreferrer" >
+                  <span>Ajaya Kumar</span>
+                  </a>
                 </div>
               </div>
           </div>
