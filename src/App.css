@@ -4,10 +4,14 @@
   box-sizing: border-box;
   font-family: 'Poppins';
 }
-.App{
+html{
   scroll-behavior: smooth;
 }
-button:hover{
+button:hover,img:hover,li:hover{
   cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: snow;
 }
 

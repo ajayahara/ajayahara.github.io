@@ -34,3 +34,13 @@
 .github-calender{
     width: 100%;
 }
+@media only screen and (max-width: 850px) {
+.stat-image-container>img{
+    height: auto;
+}
+}
+@media only screen and (max-width: 550px) {
+    .stat-image-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

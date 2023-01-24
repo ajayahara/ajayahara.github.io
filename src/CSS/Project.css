@@ -1,0 +1,77 @@
+.project {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(147, 144, 165);
+}
+
+.project-heading {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgb(30, 24, 66);
+    font-weight: bold;
+}
+
+.project-container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border: 2px solid snow;
+    text-align: justify;
+    color: snow;
+}
+
+.project-item {
+    display: flex;
+    gap: 10px;
+    border: 2px solid snow;
+    padding: 10px;
+}
+
+.item-left>img {
+    width: 200px;
+    height: 130px;
+}
+
+.item-name {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button button {
+    outline: none;
+    background-color: rgb(196, 12, 119);
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 80px;
+    border: none;
+    color: snow;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1150px) {
+    .project-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project-item {
+        flex-direction: column;
+    }
+
+    .item-left {
+        width: 100%;
+    }
+
+    .item-left>img {
+        width: 100%;
+    }
+}

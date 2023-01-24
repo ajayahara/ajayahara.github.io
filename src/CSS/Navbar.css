@@ -75,6 +75,7 @@
         width: 45%;
         background-color:rgb(30,24,66) ;
         height: 100vh;
+        transition: 0.5s;
     }
     .list-uls{
         height: 60%;
@@ -88,6 +89,7 @@
         border: 2px solid snow;
     }
     .inactive{
+        transition: 0.5s;
         left: -100%;
     }
 }

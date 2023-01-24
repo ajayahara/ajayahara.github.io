@@ -1,7 +1,6 @@
 import React from 'react'
 import "../CSS/Home.css"
 import Typewriter from "typewriter-effect";
-import { useEffect } from 'react';
 export const Home = () => {
   return (
     <div className='home' id='home'>
@@ -25,13 +24,13 @@ export const Home = () => {
             Front End Developer with 1200+ hour coding experience working with Javascript, Html, CSS & Rect to deliver exceptional customer experinces. Adept at contributing to a highly collaborative work environment, finding solutions and determining customer satisfaction.
           </div>
           <div className='home-div14'>
-            <a href="">
+            <a href="https://github.com/ajayahara" target='_blank' rel="noreferrer" >
               <img src="/Images/github.png" alt="github" />
             </a>
-            <a href="">
+            <a href="https://linkedin.com/in/https://www.linkedin.com/in/ajaya-kumar-behera-a56549237/" target='_blank' rel="noreferrer" >
               <img src="/Images/linkedin.png" alt="linkedin" />
             </a>
-            <a href="">
+            <a href="https://twitter.com/abak00350" target='_blank' rel="noreferrer" >
               <img src="/Images/twitter.png" alt="twitter" />
             </a>
           </div>
