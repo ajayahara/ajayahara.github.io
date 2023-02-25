@@ -3,22 +3,22 @@ import "../CSS/Contact.css"
 export const Contact = () => {
   return (
     <div className='contact' id='contact'>
-      <h1 className='contact-heading'>Contact Me!</h1>
+      <h1 className='contact-heading'>CONTACT ME!</h1>
       <div className='contact-container'>
         <div className='my-contact'>
           {/* <div className='mycontact-div1'>
             My Contact
           </div> */}
           <div className='mycontact-div2'>
-            <a href="#">
+            <a href="#123">
               <img src="/Images/mail.png" alt="" />
               <span>abak00350@gmail.com</span>
             </a>
-            <a href="#">
+            <a href="#123">
               <img src="/Images/call.png" alt="" />
               <span>+91 6370014498</span>
             </a>
-            <a href="#">
+            <a href="#123">
               <img src="/Images/location.png" alt="" />
               <span>Cuttack, Odisha</span>
             </a>

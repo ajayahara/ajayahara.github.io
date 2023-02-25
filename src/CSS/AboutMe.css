@@ -32,25 +32,23 @@
 }
 
 .aboutme-div21 img {
-    width: 250px;
-    height: 300px;
+    width: 230px;
+    height: 280px;
     background-color: rgb(147, 144, 165);
     border-radius: 10px;
     z-index: 2;
 }
 
 .aboutme-div22 {
-    width: 60%;
+    width: 40%;
     text-align: justify;
 }
 
 .aboutme-div21 span {
-    width: 255px;
-    height: 305px;
+    width: 240px;
+    height: 290px;
     position: absolute;
-    top: -5px;
-    left: -5px;
-    background: linear-gradient(rgb(30, 24, 66), #fff);
+    background: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
     z-index: 1;
     border-radius: 10px;
 }

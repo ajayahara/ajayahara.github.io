@@ -5,7 +5,7 @@ export const GitStats = () => {
   return (
     <div className='gitstats'>
       <h1 className='gitstats-name'>
-        Git Stats
+        GIT STATS
       </h1>
       <div className='stats-container'>
         <div className='stat-image-container'>

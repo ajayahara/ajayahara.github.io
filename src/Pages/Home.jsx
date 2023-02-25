@@ -37,7 +37,7 @@ export const Home = () => {
           <div className='home-div15'>
             <button><a href="/Project/Ajaya-Kumar-Behera-Resume.pdf" download onClick={()=>{
               window.open("https://drive.google.com/file/d/1zTgZBMP6AiSJeX31mpRlHNI_RgJSNO3o/view?usp=sharing",'_blank')
-            }}>Resume⇩</a></button>
+            }}>Resume</a></button>
           </div>
         </div>
         <div className='home-div2'>

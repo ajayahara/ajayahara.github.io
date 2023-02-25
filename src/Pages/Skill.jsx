@@ -5,7 +5,7 @@ export const Skill = () => {
   return (
     <div className='outer-skill' id='skill'>
       <h1 className='skill-text'>
-       Tech Skills
+       TECH SKILLS
       </h1>
       <div className='skill'>
       {arr.map((el) => {
