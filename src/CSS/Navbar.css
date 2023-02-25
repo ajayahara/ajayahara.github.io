@@ -10,6 +10,11 @@
     align-items: center;
     padding: 10px 20px;
 }
+.list-uls>li:last-child{
+    background-color: rgb(196, 12, 119);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 .profile-name{
     width: 20%;
     display: flex;
@@ -46,7 +51,7 @@
     }
     .profile-name{
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: row-reverse;
     }
     .closeicon{

@@ -44,14 +44,17 @@
     color: rgb(30,24,66);
 }
 .mycontact-div2{
-    width: 80%;
     margin: auto;
     font-size: 20px;
     color: snow;
-}
-.mycontact-div2>div{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.mycontact-div2>a{
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 .contact-form input,.contact-form textarea{
     width: 90%;
@@ -86,9 +89,6 @@ outline: none;
     }
     .contact-form{
         width: 100%;
-    }
-    .mycontact-div2{
-        width: 80%;
     }
 }
 @media only screen and (max-width: 450px) {
