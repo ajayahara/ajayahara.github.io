@@ -14,7 +14,7 @@ const Skill = () => (
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 w-full">
             {category.skills.map((skill) => (
-              <CustomButton key={skill.name}>
+              <CustomButton key={skill.name} variant="outlined">
                 <img
                   src={skill.logo}
                   alt={`${skill.name} logo`}

@@ -3,7 +3,7 @@ import SectionHeading from "../common/SectionHeading";
 
 const Github = () => {
   return (
-    <section id="github" className="w-full pb-6 md:pb-10 bg-[var(--bgColor)] text-[var(--secondaryColor)]">
+    <section id="github" className="w-full pb-6 md:pb-18 bg-[var(--bgColor)] text-[var(--secondaryColor)]">
       <SectionHeading title="Git" highlight="Stats" />
       <div className="flex flex-col justify-center items-center gap-5 px-2 2xl:px-64">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2 w-full">

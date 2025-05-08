@@ -1,4 +1,3 @@
-import React from "react";
 const baseStyles = `
 relative inline-flex gap-1 justify-center items-center 
 md:w-48 w-42 h-full rounded-lg text-md md:text-lg font-semibold 
@@ -21,12 +20,14 @@ const outlined = `
 bg-transparent border-[var(--primaryColor)] text-[var(--primaryColor)]
 hover:text-[var(--secondaryColor)]
 `;
-const CustomButton = ({ children, variant = "filled" }) => {
+const CustomButton = ({ children, variant = "filled", type, onClick }) => {
   return (
     <button
       className={`${baseStyles} ${
         variant === "outlined" ? outlined : filled
       } group`}
+      type={type}
+      onClick={onClick}
     >
       <span
         className={`

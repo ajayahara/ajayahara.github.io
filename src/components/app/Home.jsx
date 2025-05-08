@@ -1,5 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
-import { DownloadIcon, Facebook, GithubIcon, Linkedin } from "lucide-react";
+import { DownloadIcon, GithubIcon, Linkedin, Twitter } from "lucide-react";
 import SocialIconLink from "../common/SocialLinkIcon";
 import CustomButton from "../common/CustomButton";
 const Home = () => {
@@ -31,21 +31,35 @@ const Home = () => {
           environment, finding solutions and determining customer satisfaction.
         </p>
         <div className="flex gap-3 mb-6">
-          <SocialIconLink>
-            <Facebook className="text-[var(--primaryColor)] hover:text-[var(--secondaryColor)]" />
+          <SocialIconLink href="https://x.com/AJAYAKU66754183">
+            <Twitter className="text-[var(--primaryColor)] hover:text-[var(--secondaryColor)]" />
           </SocialIconLink>
-          <SocialIconLink>
+          <SocialIconLink href="https://www.linkedin.com/in/ajaya-kumar-behera-a56549237/">
             <Linkedin className="text-[var(--primaryColor)] hover:text-[var(--secondaryColor)]" />
           </SocialIconLink>
-          <SocialIconLink>
+          <SocialIconLink href="https://github.com/ajayahara">
             <GithubIcon className="text-[var(--primaryColor)] hover:text-[var(--secondaryColor)]" />
           </SocialIconLink>
         </div>
         <div className=" flex gap-4">
           <CustomButton>
-            Download CV <DownloadIcon />
+            <a
+              download
+              href="Ajaya-Kumar-Behera-Resume.pdf"
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1zTgZBMP6AiSJeX31mpRlHNI_RgJSNO3o/view?usp=sharing",
+                  "_blank"
+                );
+              }}
+            >
+              Resume
+            </a>
+            <DownloadIcon className="w-5 h-5" />
           </CustomButton>
-          <CustomButton variant="outlined">Let's Talk</CustomButton>
+          <CustomButton variant="outlined">
+            <a href="#contact">Let's Talk</a>
+          </CustomButton>
         </div>
       </div>
     </section>

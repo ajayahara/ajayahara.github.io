@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <section
       id="project"
-      className="w-full pb-6 md:pb-10 text-[var(--secondaryColor)]"
+      className="w-full pb-6 md:pb-18 text-[var(--secondaryColor)]"
     >
       <SectionHeading title="Projects" />
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 2xl:px-64 px-2">
@@ -47,10 +47,10 @@ const Project = () => {
               {/* Buttons */}
               <div className="flex justify-end gap-6 mt-4">
                 <CustomLinkButton href={el.url2} variant="outlined">
-                  <Github className="w-4 h-4 text-[var(--primaryColor)] hover:text-[var(--secondaryColor)]" />
+                  <Github className="w-5 h-5 text-[var(--primaryColor)] hover:text-[var(--secondaryColor)]" />
                 </CustomLinkButton>
                 <CustomLinkButton href={el.url1} variant="outlined">
-                  <CodeIcon className="w-4 h-4 text-[var(--primaryColor)] hover:text-[var(--secondaryColor)]" />
+                  <CodeIcon className="w-5 h-5 text-[var(--primaryColor)] hover:text-[var(--secondaryColor)]" />
                 </CustomLinkButton>
               </div>
             </div>

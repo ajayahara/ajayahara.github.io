@@ -8,6 +8,8 @@ import Project from "./components/app/Project";
 import Contact from "./components/app/Contact";
 import Github from "./components/app/Github";
 import TopMover from "./components/common/TopMover";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
@@ -22,6 +24,7 @@ const App = () => {
       {/* <Experience /> */}
       <Contact />
       <TopMover/>
+      <ToastContainer position="bottom-right"/>
     </div>
   );
 };
